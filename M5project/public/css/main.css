@@ -1,0 +1,149 @@
+/* * { outline: 1px #f00 solid; } */
+
+.navbar-nav {
+    float: right;
+}
+
+.background-community {
+    background-image: url(../images/community.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body.background-community {
+    min-height: 100vh;
+}
+
+/* To align the login form in the middle of the page */
+#content {
+    display: table;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#content>* {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#content-no-min-height {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+/* 	Navbar */
+.navbar-turquoise {
+    background: #87f4f5;
+}
+
+.navbar-turquoise .nav>li>a {
+    color: #000;
+}
+
+.navbar-turquoise .nav>li>a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.brand-image {
+    width: auto;
+    height: 40px;
+    margin: 5px;
+}
+
+/* * { outline: 1px #f00 solid; } */
+.text-link {
+    color: #222;
+}
+.text-link:hover,
+.text-link:focus {
+    color: #000;
+}
+
+/*  FORM */
+    form input,
+    form button {
+        border-radius: 0 !important;
+    }
+
+    .btn-black {
+        color: #fff;
+        background-color: #000;
+        border: none !important;
+    }
+
+/*  PANEL */
+    .panel-white {
+        background-color: rgba(255,255,255,0.6);
+    }
+
+    .panel-black {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+/*  BUTTON */
+    .btn-outline {
+        background-color: transparent;
+        color: inherit;
+        transition: all .1s;
+        padding: 7px 16px;
+        width: 180px;
+        border-radius: 0;
+    }
+    .btn-outline:hover,
+    .btn-outline:hover, {
+        background-color: transparent;
+        color: inherit;
+    }
+
+    .btn-black {
+        color: #eee;
+        background-color: #222;
+        border-color: #222;
+        border-radius: 0;
+    }
+    .btn-black:hover,
+    .btn-black:focus {
+        color: #fff;
+        background-color: #444;
+        border-color: #444;
+    }
+
+    .btn-white {
+        background-color: rgba(255, 255, 255, 0.6);
+        color: black;
+        transition: all .1s;
+        padding: 7px 16px;
+        width: 180px;
+        border-radius: 0;
+    }
+    .btn-white:hover,
+    .btn-white:focus {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+/*  NEWS THUMBNAIL + CAPTION */
+    .news-thumbnail { margin-bottom: 10px; }
+
+    .news-caption {
+        margin: 10px 0 30px;
+    }
+    .news-caption h4 { margin-bottom: 0; }
+    .news-caption p { margin: 0; }
